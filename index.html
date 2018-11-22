@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>USUARIO</title>
+	<link rel="stylesheet"  href="css/styleIndex2.css" media="screen" title="no title" charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="libreriasAlert/sweetalert2.all.min.js"></script>
+	<script src="libreriasAlert/sweetalert2.min.js"></script>
+	<link rel="stylesheet"  href="libreriasAlert/sweetalert2.min.css">
+	
+</head>
+<body background="imagenes/banner.jpg" >
+	<form action="validar_usuario.php" method="post" id="formulario">
+		<div class="session">
+			<div class="container">
+				<div class="len-container">
+					<div class="verdeArriba">
+						<p class="title-sesion">ASISTENCIA UNIMAGDALENA</p>
+					</div>
+					
+				</div>
+				<div class="len-container">
+					<div class="container-text-sesion">
+						<label for="username"></label>
+					</div>
+					<div class="">
+						<input class="size-input input-sesion" type="text" name="name" placeholder="&#128273; USUARIO" id="username" required autofocus="">
+					</div>
+				</div>
+				<div class="len-container">
+					<div class="container-text-sesion">
+						<label for="password"></label>
+					</div>
+					<div class="container-input">
+						<input class="size-input input-sesion" type="password" name="password" id="password" placeholder="&#128272; CONTRASEÑA" required="">
+					</div>
+				</div>
+				<div class="len-container container-button">
+					<button  type="submit" id="enlace" class="size-input button-login" name="enlace">Iniciar Sesion</button>
+				</div>
+				<a href="cambiarClave.php" style="text-decoration: none; color: black">¿Olvidaste la contraseña? </a>
+			</div>
+		</div>
+	</form>
+	<script type="text/javascript" src="Js/ajaxIndex2.js"></script>
+</body>
+</html>
